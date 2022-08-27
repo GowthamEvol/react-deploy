@@ -15,7 +15,13 @@ import {
           document.querySelector(".rightMenu").classList.toggle("active");
         });
       }, []);
-    
+
+      useEffect(() => {
+        const toggleIcon = document.querySelector(".shoppingCart");
+        toggleIcon.addEventListener("click", () => {
+          document.querySelector(".rightMenu").classList.toggle("active");
+        });
+      }, []);
   
     return (
       <header>
