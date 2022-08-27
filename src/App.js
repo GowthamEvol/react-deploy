@@ -60,9 +60,7 @@ function App() {
       {/* header section */}
 
       <Header />
-
       {/* main container */}
-
       <main>
         <div className='mainContainer'>
           {/* banner */}
